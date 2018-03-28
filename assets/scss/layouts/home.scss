@@ -1,0 +1,261 @@
+.cd-hero-slider{
+  height: calc(100vh - 30px) !important;
+
+  @include breakpoint(laptop) {
+    height: calc(100vh - 100px) !important;
+    margin-top: 70px;
+  }
+}
+
+.cd-hero-slider h2, .cd-hero-slider p{
+  @include breakpoint(large) {
+    width: 100%;
+  }
+}
+
+.cd-slider-nav a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+  @include breakpoint(medium) {
+    font-size: 12px !important;
+  }
+}
+
+.cd-full-width{
+  text-align: left !important;
+  padding: 0 80px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include breakpoint(large) {
+    padding: 0 40px !important;
+  }
+  @include breakpoint(mobile) {
+    padding: 0 20px !important;
+  }
+
+  h2{
+    font-size: 48px !important;
+    font-weight: 900 !important;
+    color: #fff;
+    margin: 0 0 13px 0 !important;
+
+    @include breakpoint(mobile) {
+      font-size: 32px !important;
+    }
+  }
+
+  p{
+    margin: 0 0 16px 0 !important;
+    font-size: 1.625rem;
+    line-height: 2.25rem;
+
+    @include breakpoint(mobile) {
+      font-size: 16px !important;
+      line-height: 1.73 !important;
+    }
+  }
+
+  a{
+    display: inline-table !important;
+    background: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    font-weight: bold !important;
+    line-height: 1.57 !important;
+    text-transform: uppercase;
+    font-size: 14px !important;
+  }
+}
+
+.home-middle{
+  display: flex;
+  padding: 100px 20px 80px 80px;
+  background: #f6f6f6;
+
+  @include breakpoint(large) {
+    padding: 100px 0 80px 40px;
+  }
+
+  @include breakpoint(desktop) {
+    padding: 100px 40px 80px 40px;
+    flex-direction: column;
+  }
+  @include breakpoint(mobile) {
+    padding: 60px 20px ;
+  }
+
+  a{
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+}
+
+.swiper-slide {
+  a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+}
+
+.home-middle-left{
+  width: 50%;
+  margin-right: 30px;
+
+  @include breakpoint(desktop) {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  a{
+    &:hover{
+      i{
+        margin-left: 15px;
+      }
+    }
+  }
+
+  i{
+    font-size: 16px;
+    position: relative;
+    bottom: -2px;
+    transition: 0.3s ease-in-out;
+  }
+}
+
+.home-middle-right{
+  width: 50%;
+
+  @include breakpoint(desktop) {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.home-swiper{
+
+  .swiper-wrapper{
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  .swiper-slide{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
+    width: calc(100% - 200px)!important;
+    background: white;
+    margin: 0 100px;
+
+    @include breakpoint(small) {
+      width: 100% !important;
+      margin: 0;
+    }
+  }
+
+  .swiper-button-next, .swiper-button-prev{
+    height: 20px;
+
+    @include breakpoint(small) {
+      display: none;
+    }
+  }
+
+  .swiper-button-next{
+    right: 20px;
+  }
+
+  .swiper-button-prev{
+    left: 20px;
+  }
+  .swiper-pagination-bullets{
+    bottom: 0;
+  }
+}
+
+.home-swiper-top{
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+.home-swiper-bottom{
+  background: white;
+  padding: 35px;
+
+  h2{
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.04;
+    color: #222222;
+    margin: 0 0 17px 0;
+  }
+
+  p {
+    @extend .regular;
+  }
+
+}
+
+.home-bottom{
+  padding: 100px 80px;
+  display: flex;
+  justify-content: space-between;
+
+  @include breakpoint(large) {
+    padding: 100px 40px ;
+  }
+
+  @include breakpoint(small) {
+    flex-direction: column-reverse;
+  }
+
+  @include breakpoint(mobile) {
+    padding: 40px 20px;
+  }
+
+}
+
+.home-bottom-left{
+  margin-right: 40px;
+
+  @include breakpoint(small) {
+    flex-direction: column;
+    margin-right: 0;
+    align-items: center;
+    margin-top: 40px;
+    display: flex;
+  }
+
+  svg{
+    width: 230px;
+  }
+
+  p{
+    max-width: 230px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.73;
+    text-align: center;
+  }
+
+  a{
+    text-decoration: underline;
+  }
+}
+
+.home-bottom-right{
+  max-width: 760px;
+}

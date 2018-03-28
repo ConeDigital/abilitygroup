@@ -1,0 +1,40 @@
+.widget404 {
+
+  margin-bottom: 45px;
+
+  ul {
+    -webkit-padding-start: 0px;
+  }
+
+  li {
+    padding: 7px 15px;
+    border-left: 2px solid transparent;
+    min-width: 200px;
+
+    &:hover {
+      background: #eee;
+      border-left: 2px solid $red;
+    }
+
+  }
+
+  a {
+    font-size: 18px;
+    color: #000;
+    padding: 10px 0;
+  }
+
+}
+
+.widget-links {
+  display: flex;
+}
+
+.links {
+  width: 50%;
+
+  &:nth-child(1){
+    margin-right: 60px;
+  }
+
+}
