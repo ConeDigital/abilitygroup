@@ -1,6 +1,6 @@
 <?php get_header() ; ?>
 
-    <section class="hero-background product-hero" style="background-image: linear-gradient(176deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.42)), url('<?php  the_post_thumbnail_url(); ?>')">
+    <section class="hero-background product-hero page-hero" style="background-image: linear-gradient(176deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.42)), url('<?php  the_post_thumbnail_url(); ?>')">
         <div class="product-hero-content hero-content">
             <?php echo get_field('product-hero') ; ?>
         </div>

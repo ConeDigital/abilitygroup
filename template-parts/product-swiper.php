@@ -8,7 +8,7 @@
  */
 ?>
 
-<?php $loop = new WP_Query( array( 'post_type' => 'product', '12' => -1 ) ); ?>
+<?php $loop = new WP_Query( array( 'post_type' => 'solutions', '12' => -1 ) ); ?>
 
 <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 

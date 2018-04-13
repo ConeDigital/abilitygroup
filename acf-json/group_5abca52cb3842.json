@@ -1,29 +1,11 @@
 {
-    "key": "group_582096eea7715",
-    "title": "Contact",
+    "key": "group_5abca52cb3842",
+    "title": "Staff",
     "fields": [
         {
-            "key": "field_582096f2cbd58",
-            "label": "Contact hero",
-            "name": "contact-hero",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 1
-        },
-        {
-            "key": "field_5821e464b7fad",
-            "label": "Contacts",
-            "name": "contacts",
+            "key": "field_5abca530c5600",
+            "label": "Personal",
+            "name": "staff",
             "type": "repeater",
             "instructions": "",
             "required": 0,
@@ -40,30 +22,9 @@
             "button_label": "Add Row",
             "sub_fields": [
                 {
-                    "key": "field_5821e478b7fae",
-                    "label": "Contacts headline",
-                    "name": "contacts-headline",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": "",
-                    "readonly": 0,
-                    "disabled": 0
-                },
-                {
-                    "key": "field_5821e495b7faf",
-                    "label": "Contacts img",
-                    "name": "contacts-img",
+                    "key": "field_5abca553c5601",
+                    "label": "Bild",
+                    "name": "staff-img",
                     "type": "image",
                     "instructions": "",
                     "required": 0,
@@ -85,27 +46,9 @@
                     "mime_types": ""
                 },
                 {
-                    "key": "field_5821e4b6b7fb0",
-                    "label": "Contacts content",
-                    "name": "contacts-content",
-                    "type": "wysiwyg",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "tabs": "all",
-                    "toolbar": "full",
-                    "media_upload": 1
-                },
-                {
-                    "key": "field_582c3b710fae2",
-                    "label": "Map link",
-                    "name": "map-link",
+                    "key": "field_5abca55fc5602",
+                    "label": "Namn",
+                    "name": "staff-name",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -124,9 +67,51 @@
                     "disabled": 0
                 },
                 {
-                    "key": "field_582edb6d88ab8",
-                    "label": "Link icon",
-                    "name": "link-icon",
+                    "key": "field_5abca56ac5603",
+                    "label": "Titel",
+                    "name": "staff-title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_5abca580c5604",
+                    "label": "Email",
+                    "name": "staff-email",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_5abca58bc5605",
+                    "label": "Nummer",
+                    "name": "staff-number",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -152,24 +137,17 @@
             {
                 "param": "page",
                 "operator": "==",
-                "value": "86"
-            }
-        ],
-        [
-            {
-                "param": "page",
-                "operator": "==",
                 "value": "84"
             }
         ]
     ],
     "menu_order": 0,
-    "position": "acf_after_title",
+    "position": "normal",
     "style": "default",
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1522310290
+    "modified": 1522312612
 }

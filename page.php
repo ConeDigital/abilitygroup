@@ -7,7 +7,7 @@
 
 get_header() ; ?>
 
-    <section id="section1" class="cd-section half-section hero-background">
+    <section id="section1" class="cd-section half-section hero-background page-hero">
         <div class="product-hero-content hero-content">
             <h1><?php the_title(); ?></h1>
         </div>

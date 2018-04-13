@@ -8,50 +8,38 @@
 <?php wp_footer(); ?>
 <section class="footer">
     <div class="footer-sections">
-        <h4>Direct conversion</h4>
-        <a target="_blank" href="http://directconversion.com/our-people/">Our people</a>
-        <a target="_blank" href="http://directconversion.com/what-we-do/">What we do</a>
-        <a target="_blank" href="http://directconversion.com/products/">Products</a>
-        <a target="_blank" href="http://directconversion.com/news/">News</a>
-        <a target="_blank" href="http://directconversion.com/investor-info/">Investor info</a>
-        <a target="_blank" href="http://directconversion.com/contact-us/">Contact</a>
-        <h4>Accreditations</h4>
-        <a target="_blank" href="http://xcounter.com/wp-content/uploads/2017/04/Certificate-13485-en.pdf">ISO 13485:2012</a>
-        <a target="_blank" href="http://xcounter.com/wp-content/uploads/2017/04/Certificate-9001-en.pdf">ISO 9001:2008</a>
+        <h4>Ability Group</h4>
+        <a href="<?php echo esc_url(home_url( '/' ) ); ?>">Hem</a>
+        <a href="<?php echo esc_url(home_url( '/tjanster' ) ); ?>">Tjänster</a>
+        <a href="<?php echo esc_url(home_url( '/om-oss' ) ); ?>">Om oss</a>
+        <a href="<?php echo esc_url(home_url( '/kontakt' ) ); ?>">Kontakt</a>
+    </div>
+    <div class="footer-sections">
+        <h4>Tjänster</h4>
+        <?php $loop = new WP_Query( array( 'post_type' => 'solutions', '12' => -1 ) ); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+            <a href="<?php the_permalink() ; ?>"><?php the_title() ; ?></a>
+        <?php endwhile; wp_reset_query(); ?>
+    </div>
+    <div class="footer-sections">
+        <h4>Kontakt info</h4>
+        <a href="mailto:emil.hedsen@abilitygroup.se">emil.hedsen@abilitygroup.se</a>
+        <a>070 438 49 45</a>
 
     </div>
     <div class="footer-sections">
-        <h4>XCOUNTER</h4>
-        <a target="_blank" href="http://xcounter.com/company/">Company</a>
-        <a target="_blank" href="http://xcounter.com/products/">Products</a>
-<!--        <a target="_blank" href="http://xcounter.com/news/">News</a>-->
-        <a target="_blank" href="http://xcounter.com/contact/">Contact</a>
-        <h4>Ajat</h4>
-        <a target="_blank" href="http://ajat.fi/company/">Company</a>
-        <a target="_blank" href="http://ajat.fi/service/">Service</a>
-        <a target="_blank" href="http://ajat.fi/contact/">Contact</a>
-    </div>
-    <div class="footer-sections">
-        <h4>Get in touch</h4>
-        <h6>Technical Support</h6>
-        <a href="mailto:info@xcounter.com">info@xcounter.com</a>
-        <h6 class="mt">Sales</h6>
-        <a href="mailto:sales@xcounter.com">sales@xcounter.com</a>
-
-    </div>
-    <div class="footer-sections">
-        <h3>Designing, developing and producing the world's best detectors.</h3>
-        <div class="footer-icons">
-            <a target="_blank" href="https://www.linkedin.com/company/284349/">
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-            </a>
-            <a target="_blank" href="https://www.youtube.com/channel/UC-nRMr2Z7pNUaaXBjH2rj_w">
-                <i class="fa fa-youtube-square" aria-hidden="true"></i>
-            </a>
-            <a target="_blank" href="https://twitter.com/DirectConv">
-                <i class="fa fa-twitter-square" aria-hidden="true"></i>
-            </a>
-        </div>
+        <h3>Vi framtidssäkrar svenska företag med digitala verktyg</h3>
+<!--        <div class="footer-icons">-->
+<!--            <a target="_blank" href="https://www.linkedin.com/company/25007266/">-->
+<!--                <i class="fa fa-linkedin-square" aria-hidden="true"></i>-->
+<!--            </a>-->
+<!--            <a target="_blank" href="#">-->
+<!--                <i class="fa fa-facebook-square" aria-hidden="true"></i>-->
+<!--            </a>-->
+<!--            <a target="_blank" href="#">-->
+<!--                <i class="fa fa-twitter-square" aria-hidden="true"></i>-->
+<!--            </a>-->
+<!--        </div>-->
     </div>
 </section>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>

@@ -103,3 +103,22 @@
 //  left: -1%;
 //  filter: blur(4px);
 //}
+
+
+.page-hero{
+
+  @include breakpoint(medium) {
+    height: auto;
+    min-height: 60vw !important;
+  }
+
+}
+
+.about-us-section{
+  background: white !important;
+
+  @include breakpoint(mobile) {
+    padding: 20px;
+  }
+
+}

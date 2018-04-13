@@ -1,13 +1,13 @@
 {
-    "key": "group_581893693089c",
-    "title": "Products",
+    "key": "group_5829770b7db41",
+    "title": "Faq",
     "fields": [],
     "location": [
         [
             {
-                "param": "post_type",
+                "param": "page",
                 "operator": "==",
-                "value": "product"
+                "value": "60"
             }
         ]
     ],

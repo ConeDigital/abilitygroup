@@ -26,6 +26,10 @@ h2{
   color: $blacky;
   line-height: 1em;
   letter-spacing: -1px;
+
+  @include breakpoint(mobile) {
+    font-size: 1.8125rem;
+  }
 }
 
 h3{

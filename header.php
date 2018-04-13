@@ -16,7 +16,7 @@
     <!-- End Google Tag Manager -->
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="<?php echo esc_url(home_url( '/wp-content/themes/xcounter/assets/images/xcfav.png' ) ); ?>">
+    <link rel="icon" href="<?php echo esc_url(home_url( '/wp-content/themes/abilitygroup/assets/images/ability-group.png' ) ); ?>">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css" rel="stylesheet" />
@@ -37,8 +37,8 @@
 <div class="load-overlay"></div>
 <div class="header header-height">
     <a href="<?php echo home_url(); ?>" class="header-logo" title="XCounter">
-        <h4><span>XC</span>ounter</h4>
-        <p>Photon Counting Future Imaging</p>
+        <img src="<?php echo esc_url(home_url( '/wp-content/themes/abilitygroup/assets/images/ability-group.png' ) ); ?>">
+        <span>Abilty Group</span>
     </a>
     <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'menu-right' ) ); ?>
     <i class="material-icons hamburger">menu</i>
@@ -47,7 +47,7 @@
     <i class="material-icons closeHamburger is-active">close</i>
     <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'mobile-menu-content' ) ); ?>
     <div class="mobile-menu-info">
-        <a href="#">nathanael.allison@xcounter.com</a>
-        <p>+46 8 622 23 00</p>
+        <a href="mailto:info@abilitygroup.se">info@abilitygroup.se</a>
+        <p>+46 73-544 88 88</p>
     </div>
 </div>

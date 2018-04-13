@@ -1,29 +1,11 @@
 {
-    "key": "group_582096eea7715",
-    "title": "Contact",
+    "key": "group_5825cd26e35ca",
+    "title": "Slider",
     "fields": [
         {
-            "key": "field_582096f2cbd58",
-            "label": "Contact hero",
-            "name": "contact-hero",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 1
-        },
-        {
-            "key": "field_5821e464b7fad",
-            "label": "Contacts",
-            "name": "contacts",
+            "key": "field_5825cd31b0a45",
+            "label": "Slider content",
+            "name": "slider-content",
             "type": "repeater",
             "instructions": "",
             "required": 0,
@@ -40,9 +22,9 @@
             "button_label": "Add Row",
             "sub_fields": [
                 {
-                    "key": "field_5821e478b7fae",
-                    "label": "Contacts headline",
-                    "name": "contacts-headline",
+                    "key": "field_5825cd45b0a46",
+                    "label": "Slider headline",
+                    "name": "slider-headline",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -61,9 +43,30 @@
                     "disabled": 0
                 },
                 {
-                    "key": "field_5821e495b7faf",
-                    "label": "Contacts img",
-                    "name": "contacts-img",
+                    "key": "field_5825cd58b0a47",
+                    "label": "Slider text",
+                    "name": "slider-text",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": "wpautop",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_5825cd69b0a48",
+                    "label": "Slider background",
+                    "name": "slider-background",
                     "type": "image",
                     "instructions": "",
                     "required": 0,
@@ -85,10 +88,10 @@
                     "mime_types": ""
                 },
                 {
-                    "key": "field_5821e4b6b7fb0",
-                    "label": "Contacts content",
-                    "name": "contacts-content",
-                    "type": "wysiwyg",
+                    "key": "field_5825cd81b0a49",
+                    "label": "slider-video",
+                    "name": "slider-video",
+                    "type": "file",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -97,36 +100,16 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "tabs": "all",
-                    "toolbar": "full",
-                    "media_upload": 1
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
                 },
                 {
-                    "key": "field_582c3b710fae2",
-                    "label": "Map link",
-                    "name": "map-link",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": "",
-                    "readonly": 0,
-                    "disabled": 0
-                },
-                {
-                    "key": "field_582edb6d88ab8",
-                    "label": "Link icon",
-                    "name": "link-icon",
+                    "key": "field_5825cece9b711",
+                    "label": "slider-link",
+                    "name": "slider-link",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -152,14 +135,7 @@
             {
                 "param": "page",
                 "operator": "==",
-                "value": "86"
-            }
-        ],
-        [
-            {
-                "param": "page",
-                "operator": "==",
-                "value": "84"
+                "value": "64"
             }
         ]
     ],
@@ -171,5 +147,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1522310290
+    "modified": 1522249035
 }

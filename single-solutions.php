@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-    <section id="section1" class="cd-section half-section hero-background"  style="background: url('<?php the_post_thumbnail_url(); ?>') no-repeat center center; background-size: cover">
+    <section id="section1" class="cd-section half-section hero-background page-hero"  style="background: url('<?php the_post_thumbnail_url(); ?>') no-repeat center center; background-size: cover">
         <div class="overlay"></div>
         <div class="product-hero-content hero-content">
             <h1><?php the_title(); ?></h1>
@@ -17,6 +17,7 @@
         </div>
 
     </section>
+    <?php if(get_field('information_2')) : ?>
 
     <section class="solution">
         <div class="s-img" style="background: url('<?php the_field('image_2') ?>') no-repeat center center; background-size: cover">
@@ -26,7 +27,9 @@
             <?php the_field('information_2') ?>
         </div>
     </section>
+    <?php endif ; ?>
 
+    <?php if(get_field('information_3')) : ?>
     <section class="solution">
 
         <div class="s-text">
@@ -38,5 +41,6 @@
         </div>
 
     </section>
+    <?php endif ; ?>
 
 <?php get_footer(); ?>
