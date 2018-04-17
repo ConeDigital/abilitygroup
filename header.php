@@ -38,7 +38,7 @@
 <div class="header header-height">
     <a href="<?php echo home_url(); ?>" class="header-logo" title="XCounter">
         <img src="<?php echo esc_url(home_url( '/wp-content/themes/abilitygroup/assets/images/ability-group.png' ) ); ?>">
-        <span>Abilty Group</span>
+        <span>Ability Group</span>
     </a>
     <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'menu-right' ) ); ?>
     <i class="material-icons hamburger">menu</i>

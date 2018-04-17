@@ -105,11 +105,11 @@
 .product-grid-section{
   background: #f6f6f6;
   display: flex;
-  padding: 0 30px 80px 80px;
+  padding: 0 55px 80px 80px;
   flex-wrap: wrap;
 
   @include breakpoint(large) {
-    padding: 0 0 60px 40px;
+    padding: 0 15px 60px 40px;
   }
 
   @include breakpoint(small) {
@@ -118,8 +118,8 @@
 }
 
 .product-grid{
-  margin: 0 50px 50px 0;
-  width: calc(33.3% - 50px);
+  margin: 0 25px 25px 0;
+  width: calc(25% - 25px);
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   cursor: pointer;
   position: relative;
@@ -127,16 +127,16 @@
   background: white;
 
   @include breakpoint(large) {
-    margin: 0 40px 50px 0;
-    width: calc(33.3% - 40px);
+    margin: 0 25px 25px 0;
+    width: calc(33.3% - 25px);
   }
 
   @include breakpoint(desktop) {
-    width: calc(50% - 40px);
+    width: calc(50% - 25px);
   }
   @include breakpoint(small) {
     width: calc(100% - 20px);
-    margin: 0 20px 40px 0;
+    margin: 0 20px 20px 0;
 
   }
 
@@ -156,12 +156,16 @@
 }
 
 .product-grid-img{
-  height: 17vw;
+  height: 12vw;
   width: 100%;
   max-height: 220px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  @include breakpoint(large) {
+    height: 18vw;
+  }
 
   @include breakpoint(desktop) {
     height: 25vw;

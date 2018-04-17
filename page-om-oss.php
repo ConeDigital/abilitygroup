@@ -16,7 +16,7 @@
         </div>
     </section>
     <section class="staff-section">
-        <h2>Vår personal</h2>
+        <h2>Ägare</h2>
         <div class="staff-grid">
             <?php if( have_rows('staff') ): ?>
                 <?php while( have_rows('staff') ) : the_row(); remove_filter('acf_the_content', 'wpautop'); ?>

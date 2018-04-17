@@ -31,10 +31,10 @@
             <?php endif; ?>
 
         </div>
-        <div class="contact-right .blue-quote">
-            <blockquote>“Phasellus volutpat, metus eget egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. Fusce neque. Suspendisse feugiat. Blandit dui, id egestas quam mauris ut lacus. Fusce neque. Suspendisse feugiat phasellus volutpat, metus eget.”</blockquote>
-            <span>- Emil Hedsén, Säljare och kontaktansvarig på Ability Group</span>
-        </div>
+<!--        <div class="contact-right .blue-quote">-->
+<!--            <blockquote>“Phasellus volutpat, metus eget egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. Fusce neque. Suspendisse feugiat. Blandit dui, id egestas quam mauris ut lacus. Fusce neque. Suspendisse feugiat phasellus volutpat, metus eget.”</blockquote>-->
+<!--            <span>- Emil Hedsén, Säljare och kontaktansvarig på Ability Group</span>-->
+<!--        </div>-->
     </section>
 <!--    <section class="contact-other">-->
 <!--        <div class="contact-other-content">-->

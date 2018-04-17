@@ -16,14 +16,14 @@
     </div>
     <div class="footer-sections">
         <h4>Tjänster</h4>
-        <?php $loop = new WP_Query( array( 'post_type' => 'solutions', '12' => -1 ) ); ?>
+        <?php $loop = new WP_Query( array( 'post_type' => 'solutions', 'posts_per_page' => 4 ) ); ?>
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
             <a href="<?php the_permalink() ; ?>"><?php the_title() ; ?></a>
         <?php endwhile; wp_reset_query(); ?>
     </div>
     <div class="footer-sections">
         <h4>Kontakt info</h4>
-        <a href="mailto:emil.hedsen@abilitygroup.se">emil.hedsen@abilitygroup.se</a>
+        <a href="mailto:info@abilitygroup.se">info@abilitygroup.se</a>
         <a>070 438 49 45</a>
 
     </div>
