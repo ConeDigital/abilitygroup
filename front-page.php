@@ -66,7 +66,7 @@
     <section class="home-bottom">
         <div class="home-bottom-left">
             <img src="<?php echo esc_url(home_url( '/wp-content/themes/abilitygroup/assets/images/ability-group.png' ) ); ?>">
-            <p>Ability group fungerar som en extern IT-avdelning <a href="<?php echo esc_url(home_url( '/om-oss' ) ); ?>">om oss</a></p>
+            <p>Ability Group fungerar som en extern IT-avdelning <a href="<?php echo esc_url(home_url( '/om-oss' ) ); ?>">om oss</a></p>
         </div>
     <div class="home-bottom-right">
         <h2><?php echo get_field('home-headline') ; ?></h2>

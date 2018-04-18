@@ -48,6 +48,6 @@
     <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'mobile-menu-content' ) ); ?>
     <div class="mobile-menu-info">
         <a href="mailto:info@abilitygroup.se">info@abilitygroup.se</a>
-        <p>+46 73-544 88 88</p>
+        <p>070 438 49 45</p>
     </div>
 </div>
